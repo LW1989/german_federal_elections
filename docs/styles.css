@@ -1,14 +1,14 @@
 :root {
     --primary-color: #3d3d3d;
     --accent-color: #30a2da;
-    --background-color: #ffffff;
+    --background-color: #f7f7f7; /* Updated to a soft grey for depth */
     --text-color: #333333;
     --line-color: #e0e0e0;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.6;
+    line-height: 1.8; /* Slightly increased for better readability */
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;
@@ -21,57 +21,57 @@ body {
     padding: 0 20px;
 }
 
-.plotly-graph-div {
-    width: 100%; /* Ensure it takes the full width of its container */
-    height: 6000px; /* Set the desired height */
-    max-width: 1200px; /* Optional: Set a maximum width */
-    margin: 0 auto; /* Center the map */
-}
-
 header {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 0;
+    padding: 2rem 0; /* Increased padding for a more spacious header */
     margin-bottom: 2rem;
+    text-align: center; /* Center-align text in the header */
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
     line-height: 1.2;
+    margin-bottom: 1rem; /* Added margin below headings for spacing */
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Larger font for a more impactful title */
     margin: 0;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem; /* Slightly increased for better hierarchy */
     margin-top: 0;
 }
 
 .lead {
-    font-size: 1.2rem;
+    font-size: 1.4rem; /* Slightly larger for better emphasis */
     font-weight: 600;
     color: var(--primary-color);
+    margin-bottom: 1.5rem; /* Added margin for spacing */
 }
 
 .key-stat {
     margin: 2rem 0;
-    padding: 1rem;
-    border-top: 1px solid var(--line-color);
-    border-bottom: 1px solid var(--line-color);
+    padding: 1.5rem; /* Increased padding for a more card-like appearance */
+    border: 1px solid var(--line-color); /* Replaced top and bottom border with a full border */
+    border-radius: 8px; /* Added rounded corners for a modern look */
+    background-color: white; /* Ensured the key stat card stands out */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for depth */
+    text-align: center; /* Centered text within key stat */
 }
 
 .key-stat .number {
-    font-size: 3rem;
+    font-size: 3.5rem; /* Slightly larger number for emphasis */
     font-weight: bold;
     color: var(--accent-color);
     display: block;
+    margin-bottom: 0.5rem; /* Added margin for spacing */
 }
 
 .key-stat .description {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--primary-color);
 }
 
@@ -86,21 +86,24 @@ blockquote {
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Increased padding for a more prominent button */
     background-color: var(--accent-color);
     color: white;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 25px; /* Added rounded corners for a modern button style */
+    transition: background-color 0.3s ease; /* Added smooth color transition */
     margin-top: 2rem;
 }
 
 .cta-button:hover {
     background-color: #2980b9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Added a shadow on hover for effect */
 }
 
 footer {
     margin-top: 3rem;
-    padding: 1rem 0;
+    padding: 1.5rem 0; /* Increased padding for a more substantial footer */
     background-color: var(--primary-color);
     color: white;
     text-align: center;
