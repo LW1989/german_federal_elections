@@ -16,9 +16,16 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.plotly-graph-div {
+    width: 100%; /* Ensure it takes the full width of its container */
+    height: 6000px; /* Set the desired height */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the map */
 }
 
 header {
