@@ -1,11 +1,11 @@
 remote_theme: broccolini/swiss
-theme_color: black  # You can change this to one of the available colors
+theme_color: red  # You can change this to one of the available colors
 
 # Other configuration options...
-title: Your Site Title
+title: Politics Understood 
 description: A brief description of your site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lw1989.github.io/german_federal_elections/" # the base hostname & protocol for your site
+baseurl: "german_federal_elections/" # the subpath of your site, e.g. /blog
+url: "https://lw1989.github.io/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

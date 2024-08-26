@@ -1,6 +1,6 @@
 ---
 layout: About
-title: Die Linke
+title: About
 ---
 
 # Welcome to My Site
@@ -14,3 +14,5 @@ Content for section 1...
 ## Section 2
 
 Content for section 2...
+
+[Link to Interactive Map](assets/map.html)
