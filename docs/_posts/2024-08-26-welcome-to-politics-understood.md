@@ -9,7 +9,6 @@ categories: writing
 
 Here's an interactive map showing the election results:
 
-<iframe src="{{ '{{ site.baseurl }}' }}/assets/map.html" width="100%" height="600px" frameborder="0"></iframe>
 
 This map displays...
 
