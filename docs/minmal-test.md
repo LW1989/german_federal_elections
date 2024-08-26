@@ -3,7 +3,7 @@ layout: default
 title: Minimal Test
 ---
 
-# Minimal Jekyll Test
+# Updated Minimal Jekyll Test
 
 1. Plain text
 2. **Bold text**
@@ -15,3 +15,6 @@ title: Minimal Test
    - Item {{ i }}
    {% endfor %}{% endraw %}
 7. Page URL: {{ page.url }}
+8. Simple variable test: {% assign test_var = "Hello, World!" %}{{ test_var }}
+9. Simple if test: {% if true %}This should appear{% endif %}
+10. Raw tag test: {% raw %}{{ This should not be processed }}{% endraw %}
