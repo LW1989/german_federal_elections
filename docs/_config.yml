@@ -4,8 +4,15 @@ theme_color: red  # You can change this to one of the available colors
 # Other configuration options...
 title: Politics Understood 
 description: A brief description of your site
-baseurl: "german_federal_elections/" # the subpath of your site, e.g. /blog
-url: "https://lw1989.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+github_repo: german_federal_elections
+# the GitHub repo name for your project
+github_username: lw1989
+
+social_link: twitter
+social_username: lutzwall
 
 # Build settings
 markdown: kramdown
