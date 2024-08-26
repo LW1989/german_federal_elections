@@ -1,3 +1,16 @@
 ---
 layout: home
 ---
+
+# Welcome to German Federal Elections Analysis
+
+Here are our latest analyses:
+
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
